@@ -1,4 +1,3 @@
-````markdown
 # 3D Scientific Calculator 🧮
 
 A full-stack **3D Scientific Calculator** developed as a Semester 3 academic project using HTML, CSS, JavaScript, PHP, Python, MySQL, and CSV.
@@ -72,7 +71,6 @@ Decimal Places: 10
 Angle Mode: DEG
 Theme: 3D Glass
 ```
-````
 
 ### Calculation History
 
