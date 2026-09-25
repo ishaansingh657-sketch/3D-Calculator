@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>3D Calculator</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h1>3D Calculator</h1>
+      <!-- Display -->
+      <div class="display">
+        <div id="expression"></div>
+        <div id="result"></div>
+      </div>
+      <div class="buttons">
+        <!-- Scientific Row 1 -->
+        <div class="button-row">
+          <button
+            type="button"
+            class="scientific-button"
+            onclick="scientificFunction('sin')"
+          >
+            sin
+          </button>
+          <button
+            type="button"
+            class="scientific-button"
+            onclick="scientificFunction('cos')"
+          >
+            cos
+          </button>
+          <button
+            type="button"
+            class="scientific-button"
+            onclick="scientificFunction('tan')"
+          >
+            tan
+          </button>
+          <button
+            type="button"
+            class="scientific-button"
+            onclick="scientificFunction('log')"
+          >
+            log
+          </button>
+        </div>
+        <!-- Scientific Row 2 -->
+        <div class="button-row">
+          <button
+            type="button"
+            class="advanced-button"
+            onclick="scientificFunction('percent')"
+          >
+            %
+          </button>
+          <button
+            type="button"
+            class="advanced-button"
+            onclick="scientificFunction('ln')"
+          >
+            ln
+          </button>
+          <button
+            type="button"
+            class="advanced-button"
+            onclick="scientificFunction('sqrt')"
+          >
+            √
+          </button>
+          <button
+            type="button"
+            class="advanced-button"
+            onclick="scientificFunction('square')"
+          >
+            x²
+          </button>
+          <button
+            type="button"
+            class="advanced-button"
+            onclick="setOperator('^')"
+          >
+            xʸ
+          </button>
+          <button
+            type="button"
+            class="advanced-button"
+            onclick="addToDisplay(Math.PI)"
+          >
+            π
+          </button>
+        </div>
+        <!-- Number Row 1 -->
+        <div class="button-row">
+          <button type="button" onclick="addToDisplay('7')">7</button>
+          <button type="button" onclick="addToDisplay('8')">8</button>
+          <button type="button" onclick="addToDisplay('9')">9</button>
+          <button
+            type="button"
+            class="operator-button"
+            onclick="setOperator('/')"
+          >
+            ÷
+          </button>
+        </div>
+        <!-- Number Row 2 -->
+        <div class="button-row">
+          <button type="button" onclick="addToDisplay('4')">4</button>
+          <button type="button" onclick="addToDisplay('5')">5</button>
+          <button type="button" onclick="addToDisplay('6')">6</button>
+          <button
+            type="button"
+            class="operator-button"
+            onclick="setOperator('*')"
+          >
+            *
+          </button>
+        </div>
+        <!-- Number Row 3 -->
+        <div class="button-row">
+          <button type="button" onclick="addToDisplay('1')">1</button>
+          <button type="button" onclick="addToDisplay('2')">2</button>
+          <button type="button" onclick="addToDisplay('3')">3</button>
+          <button
+            type="button"
+            class="operator-button"
+            onclick="setOperator('-')"
+          >
+            -
+          </button>
+        </div>
+        <!-- Bottom Row -->
+        <div class="button-row">
+          <button type="button" class="clear-button" onclick="clearDisplay()">
+            AC
+          </button>
+          <button type="button" onclick="addToDisplay('0')">0</button>
+          <button type="button" onclick="addToDisplay('.')">.</button>
+          <button
+            type="button"
+            class="equals-button"
+            onclick="calculateResult()"
+          >
+            =
+          </button>
+          <button
+            type="button"
+            class="operator-button plus-button"
+            onclick="setOperator('+')"
+          >
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
