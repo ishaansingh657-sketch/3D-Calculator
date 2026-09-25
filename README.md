@@ -1,13 +1,17 @@
-Yes. I have re-checked it with one rule: **the README is public documentation, so it should contain project information and reproducible setup instructions, but not your private/local configuration or runtime data.**
-
-Below is the cleaned final version. I have kept the project information and professional format, while removing the local MySQL host/port, local-environment details, troubleshooting notes, actual runtime data, and anything else that does not need to be public.
-
 ````markdown
 # 3D Scientific Calculator 🧮
 
 A full-stack **3D Scientific Calculator** developed as a Semester 3 academic project using HTML, CSS, JavaScript, PHP, Python, MySQL, and CSV.
 
 The project combines a 3D/glassmorphism user interface with a Python calculation engine, PHP backend integration, MySQL-based calculator settings, and automatic CSV calculation history.
+
+---
+
+## Preview
+
+![3D Scientific Calculator](docs/Calculator.png)
+
+---
 
 ---
 
