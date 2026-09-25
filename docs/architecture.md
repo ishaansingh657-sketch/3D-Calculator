@@ -28,8 +28,6 @@ Python Calculation Engine
        CSV File
 ```
 
-````
-
 ## Components
 
 ### 1. Frontend
@@ -175,4 +173,3 @@ A typical calculation follows this sequence:
 └── data/
     └── calculation_history.csv
 ```
-````
