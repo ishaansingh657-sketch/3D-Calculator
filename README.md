@@ -13,8 +13,6 @@ The project combines a 3D/glassmorphism user interface with a Python calculation
 
 ---
 
----
-
 ## ✨ Features
 
 ### Basic Operations
